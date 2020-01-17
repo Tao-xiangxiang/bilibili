@@ -1,0 +1,37 @@
+/* components/MyTate/MyTate.wxss */
+.my_title{
+    display: flex;
+    align-items: center;
+    padding: 10rpx;
+    background-color: #fff;
+}
+.logo{
+    flex:7;
+}
+.search_icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user_icon{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.domn_app{
+    flex: 3;
+    font-size: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    color: #fff;
+    padding: 10rpx;
+    border-radius: 10rpx;
+    -webkit-border-radius: 10rpx;
+    -moz-border-radius: 10rpx;
+    -ms-border-radius: 10rpx;
+    -o-border-radius: 10rpx;
+}
